@@ -1,6 +1,6 @@
 import telebot
 
-token = "5266823542:AAHBnHj_MYhSlFwI-NbQPLHJ38NfEcLKPMU"
+token = ""  #Введите ваш токен здесь
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=["info"])
